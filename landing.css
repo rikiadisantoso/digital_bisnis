@@ -1,0 +1,286 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header h2 {
+  font-weight: bolder;
+}
+header {
+  text-align: center;
+  padding: 50px;
+}
+.page {
+  padding-bottom: 100px;
+}
+
+/* styling navbar */
+.navbar {
+  background-color: #4c4c6d;
+  padding: 2%;
+}
+
+.menu {
+  margin-right: 10%;
+  text-decoration: none;
+}
+#home{
+  color: #1b9c85;
+  font-weight: bold;
+}
+.menu-item{
+  margin: 40px;
+  text-decoration: none;
+  color: white;
+}
+.menu-item:hover{
+  color: #1b9c85;
+  font-weight: bold;
+}
+
+
+/* ====================================== */
+/* styling page 1 */
+.content {
+  background-color: #4c4c6d;
+  padding: 10% 10% 15% 10%;
+  background-image: url(bg1.png);
+  background-size: 70%;
+  position: relative;
+}
+
+.teks {
+  color: white;
+  width: 500px;
+}
+
+.btn {
+  background-color: #1b9c85;
+  border-radius: 10px;
+  color: azure;
+  padding: 10px 50px 10px 50px;
+  width: fit-content;
+  height: fit-content;
+}
+.btn:hover {
+  background-color: #0f6657;
+}
+
+#tt {
+  color: #ffe194;
+}
+
+.icn {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* ====================================== */
+/* page 2 */
+header {
+  padding: 50px;
+}
+.content1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  background-color: #e8f6ef;
+  width: 280px;
+  margin: 2%;
+  padding: 5% 2% 2% 2%;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.judul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #4c4c6d;
+  text-align: initial;
+}
+.sjudul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #1b9c85;
+}
+
+.foto1 {
+  width: 100px;
+  position: absolute;
+  top: -50px;
+}
+
+/* styling page 3*/
+#judulpage3 {
+  color: #f0f0f0;
+}
+
+#subheading {
+  color: #ffe194;
+}
+
+#text {
+  color: #f0f0f0;
+}
+#page-ganjil {
+  background-color: #4c4c6d;
+  background-image: url(bg1.png);
+  background-size: 70%;
+}
+
+.page2 {
+  display: flex;
+  justify-content: center;
+}
+.page2 > div {
+  margin: 20px;
+  width: 480px;
+  height: 480px;
+}
+#gambar {
+  position: relative;
+}
+.ronaldo {
+  width: 300px;
+  border-radius: 20px;
+}
+#ronaldo2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* =============================== */
+/* page 4 */
+
+.content4 {
+  display: flex;
+  justify-content: center;
+}
+.card4 {
+  width: 350px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  margin: 1%;
+  margin-top: -50px;
+  
+}
+
+.image4 {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.judul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #4c4c6d;
+  text-align: initial;
+}
+.sjudul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #1b9c85;
+}
+.description {
+  padding: 10px;
+}
+.card4 > .btn {
+  position: relative;
+  top: 280px;
+}
+
+/* style footer */
+.layout {
+  display: flex;
+  justify-content: center;
+  background-color: #4c4c6d;
+  padding-top: 40px;
+  color: #f0f0f0;
+}
+
+.vectorin {
+  padding-top: 0px;
+  margin-top: 600px;
+  margin: 20px;
+  margin-right: 18%;
+}
+
+.gambar {
+  width: 300px;
+  height: 60px;
+  padding-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.gambar > p {
+  text-align: center;
+}
+
+.sosmed {
+  text-align: left;
+}
+.sosmed-name {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.text-sosmed {
+  margin: 10px;
+}
+.text-sosmed > p {
+  margin: 0px;
+}
+
+.layanan {
+  margin: 20px;
+}
+
+.layanan > h4 {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 21px;
+}
+.layanan > p {
+  text-align: left;
+}
+
+.garis {
+  background-color: #4c4c6d;
+  padding: 20px;
+}
+.garis > hr {
+  margin-left: 8%;
+  margin-right: 8%;
+  color: #f0f0f0;
+}
+
+.tag {
+  background-color: #4c4c6d;
+}
+.tag > p {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  color: #f0f0f0;
+}
